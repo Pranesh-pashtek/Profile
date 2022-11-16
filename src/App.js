@@ -26,7 +26,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/react-hooks" component={ReactHooks} />
             <Route exact path="/ui-ux" component={UiUx} />
-            <Route exact path="/sample" component={ToggleColorMode} />
+            {/* <Route exact path="/sample" component={ToggleColorMode} /> */}
             <Route exact path="/form-example" component={FormExample} />
           </Switch>
         </ScrollToTop>
