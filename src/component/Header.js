@@ -52,9 +52,9 @@ function Header() {
                       <li>
                         <a href="/#service">Service</a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="/sample">Sample</a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="/#contact">Contact</a>
                       </li>
