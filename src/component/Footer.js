@@ -9,38 +9,38 @@ function Footer() {
         <div className="about-social-icon text-center">
           <ul className="about-social">
             <li className="wow fadeIn" data-wow-delay=".8s">
-              <a href="" target="newtab">
+              <a href="https://twitter.com/i_am_pranesh" target="newtab">
                 <i className="fa fa-twitter" aria-hidden="true"></i>
               </a>
             </li>
             <li className="wow fadeIn" data-wow-delay=".6s">
               <a
-                href=""
+                href="https://www.linkedin.com/in/pranesh-r-b-2b2b55220/"
                 target="newtab"
               >
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </li>
             <li className="wow fadeIn" data-wow-delay=".2s">
-              <a href="" target="newtab">
+              <a href="https://www.facebook.com/profile.php?id=100006699243615" target="newtab">
                 <i className="fa fa-facebook" aria-hidden="true"></i>
               </a>
             </li>
             <li className="wow fadeIn" data-wow-delay=".4s">
               <a
-                href=""
+                href="https://www.instagram.com/i_am_pranesh"
                 target="newtab"
               >
                 <i className="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </li>
-            <li className="wow fadeIn" data-wow-delay="1s">
+            {/* <li className="wow fadeIn" data-wow-delay="1s">
               <a href="" target="newtab">
                 <i className="fa fa-medium" aria-hidden="true"></i>
               </a>
-            </li>
+            </li> */}
             <li className="wow fadeIn" data-wow-delay="1.2s">
-              <a href="" target="newtab">
+              <a href="https://github.com/pranesh20" target="newtab">
                 <i className="fa fa-github" aria-hidden="true"></i>
               </a>
             </li>

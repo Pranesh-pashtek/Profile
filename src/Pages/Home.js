@@ -79,8 +79,8 @@ const Home = () => {
                         <ul className="about-social">
                           <li className="wow fadeIn" data-wow-delay=".4s">
                             <a
-                              href=""
-                              // target="newtab"
+                              href="https://www.linkedin.com/in/pranesh-r-b-2b2b55220/"
+                              target="newtab"
                             >
                               <i
                                 className="fa fa-linkedin"
@@ -90,8 +90,8 @@ const Home = () => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".2s">
                             <a
-                              href=""
-                              // target="newtab"
+                              href="https://github.com/pranesh20"
+                              target="newtab"
                             >
                               <i
                                 className="fa fa-github"
@@ -101,8 +101,8 @@ const Home = () => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".6s">
                             <a
-                              href=""
-                              // target="newtab"
+                              href="https://www.instagram.com/i_am_pranesh"
+                              target="newtab"
                             >
                               <i
                                 className="fa fa-instagram"
@@ -112,8 +112,8 @@ const Home = () => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".8s">
                             <a
-                              href=""
-                              // target="newtab"
+                              href="https://twitter.com/i_am_pranesh"
+                              target="newtab"
                             >
                               <i
                                 className="fa fa-twitter"
@@ -123,10 +123,10 @@ const Home = () => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay="1s">
                             <a
-                              href=""
-                              // target="newtab"
+                              href="https://www.facebook.com/profile.php?id=100006699243615"
+                              target="newtab"
                             >
-                              <i className="fa fa-book" aria-hidden="true"></i>
+                              <i className="fa fa-facebook" aria-hidden="true"></i>
                             </a>
                           </li>
                         </ul>
@@ -145,7 +145,7 @@ const Home = () => {
      
         <Box sx={{bgcolor: 'background.default',color: 'text.primary' }}>
         <div id="about" style = {{bgcolor: 'background.default', color: 'text.primary'}}>
-      <MyApp />  
+      {/* <MyApp />   */}
           <div className="about-content" style = {{background: 'background.default', color: 'text.primary'}}>
             <div className="love-grid text-center" style={{bgcolor: 'background.default !important',color: 'text.primary' }}>
               <div className="container">
@@ -549,7 +549,7 @@ const Home = () => {
                         ></i>
                         <h3>
                           <a
-                            href="https://uaguria.com/"
+                            href="https://pashtek.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "#4d4d4d" }}
