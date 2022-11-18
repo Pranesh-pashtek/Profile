@@ -941,7 +941,7 @@ const Home = () => {
                                       developer you can trust with a project
                                       from start to finish.”
                                       <br />
-                                      <span>Ishrak Chaudhury</span>
+                                      <span>Jagadish</span>
                                     </p>
                                   </blockquote>
                                 </div>
@@ -954,7 +954,7 @@ const Home = () => {
                                       collaborative friction that's needed to
                                       produce excellent work.”
                                       <br />
-                                      <span>Kamrul Roy</span>
+                                      <span>Ganesh</span>
                                     </p>
                                   </blockquote>
                                 </div>
@@ -967,7 +967,7 @@ const Home = () => {
                                       the way he achieved the translations
                                       portion of the site.”
                                       <br />
-                                      <span>Shahadat Mahapatra</span>
+                                      <span>Madhan</span>
                                     </p>
                                   </blockquote>
                                 </div>
