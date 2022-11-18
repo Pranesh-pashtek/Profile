@@ -243,17 +243,16 @@ const Home = () => {
                       </div>
                       <p className="wow fadeIn">
                         I am a web developer from Tamil Nadu, India. I enjoy
-                        building everything from small business sites to rich
+                        building everything from small web applications to rich
                         interactive web apps. if you are a business seeking a
                         web presence or an employer looking to hire, you can get
                         in touch with me{" "}
-                        <a className="underline2" href="#contact">
+                        <a  href="#contact">
                           {" "}
                           here.
                         </a>{" "}
                         I design and build digital products with simple and
-                        beautiful code. I specialize in custom web theme
-                        development and love what I do.
+                        beautiful code. I specialize in Backend API's and Frontend functionality and love what I do.
                         <br />
                         <br />
                         Since beginning my journey as a web developer in my
@@ -423,7 +422,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="row love-row wow fadeIn">
-                  <div className="col-md-4 col-sm-4">
+                  <div className="col-md-6 col-sm-4">
                     <div className="resume-details" data-wow-delay=".2s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
@@ -431,7 +430,7 @@ const Home = () => {
                           className="fa fa-home resume-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>School</h3>
+                        <h3  style={{ color: "#0A2140" }}>School</h3>
                         <h2>2015</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
@@ -442,10 +441,10 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".3s">
+                  {/* <div className="col-md-4 col-sm-4">
+                    <div className="resume-details" data-wow-delay=".3s"> */}
                       {/* <div className="resume-hover"></div> */}
-                      <div className="resume-main">
+                      {/* <div className="resume-main"> */}
                         {/* <i
                           className="fa fa-graduation-cap resume-icon"
                           aria-hidden="true"
@@ -466,10 +465,10 @@ const Home = () => {
                           </a>
                           , Contai, West Bengal, India.
                         </p> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-4">
+                      {/* </div> */}
+                    {/* </div>
+                  </div> */}
+                  <div className="col-md-6 col-sm-4">
                     <div className="resume-details" data-wow-delay=".4s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
@@ -477,7 +476,7 @@ const Home = () => {
                           className="fa fa-graduation-cap resume-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Graduation</h3>
+                        <h3  style={{ color: "#0A2140" }}>Graduation</h3>
                         <h2>2015-2020</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
@@ -523,7 +522,7 @@ const Home = () => {
                             href="https://CrossHurdle.com/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            style={{ color: "#4d4d4d" }}
+                            style={{ color: "#0A2140" }}
                           >
                             CrossHurdle LLP
                           </a>
@@ -552,7 +551,7 @@ const Home = () => {
                             href="https://pashtek.com/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            style={{ color: "#4d4d4d" }}
+                            style={{ color: "#0A2140" }}
                           >
                             Pashtek
                           </a>
@@ -750,7 +749,7 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/design-development.jpg"
+                          src="assets/img/service/design-development1.gif"
                           alt="design-development"
                         />
                       </div>
@@ -773,7 +772,7 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/e-commarce.jpg"
+                          src="assets/img/service/e-commarce1.gif"
                           alt="e-commarce"
                         />
                       </div>
@@ -782,12 +781,12 @@ const Home = () => {
                           className="fa fa-cart-plus exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>eCommerce</h3>
+                        <h3>eCommerce + SocialMedia</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Integration of eCommerce platforms, payment gateways,
-                          custom product templates, and more.
+                          Integration of eCommerce platforms And socialmedia platform, payment gateways,
+                          Chat with users, and more.
                         </p>
                       </div>
                     </div>
@@ -796,7 +795,7 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/analytics.jpg"
+                          src="assets/img/service/analytics1.gif"
                           alt="analytics"
                         />
                       </div>
@@ -805,12 +804,12 @@ const Home = () => {
                           className="fa fa-tachometer service-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Analytics</h3>
+                        <h3>Okta</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Get insights into who is browsing your site so that
-                          you can make smarter business decisions.
+                        Okta is a customizable, secure, and drop-in solution to add authentication 
+                        and authorization services to your applications.
                         </p>
                       </div>
                     </div>
@@ -819,7 +818,7 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/mobile-friendly.jpg"
+                          src="assets/img/service/mobile-friendly1.gif"
                           alt="mobile-friendly"
                         />
                       </div>
@@ -842,21 +841,20 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/website-audit.jpg"
+                          src="assets/img/service/website-audit2.gif"
                           alt="website-audit"
                         />
                       </div>
                       <div className="service-bottom">
                         <i
-                          className="fa fa-search exp-icon"
+                          className="fa fa-tablet exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Website Rank</h3>
+                        <h3>Backend Resource</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Looking to improve your page performance, SEO, or user
-                          experience? Request a free site audit.
+                        Coding the backend of an eCommerce application is a step that has to be performed with precision.
                         </p>
                       </div>
                     </div>
@@ -865,7 +863,7 @@ const Home = () => {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/content-management.jpg"
+                          src="assets/img/service/Blogging1.gif"
                           alt="content-management"
                         />
                       </div>
@@ -1364,7 +1362,7 @@ const Home = () => {
                     <div className="col-md-3 col-sm-6 contact-colamn">
                       <div className="contact-col-info" data-wow-delay=".6s">
                         <i
-                          className="fa fa-television contact-icon"
+                          className="fa fa-laptop contact-icon"
                           aria-hidden="true"
                         ></i>
                         <h3>Portfolio</h3>

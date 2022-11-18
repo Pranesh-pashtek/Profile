@@ -37,7 +37,7 @@ function Header() {
                     <ul className="nav navbar-nav">
                       <li>
                         <a href="/#home" className="active">
-                          Home
+                         Home
                         </a>
                       </li>
                       <li>
