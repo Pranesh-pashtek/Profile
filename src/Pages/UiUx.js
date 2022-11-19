@@ -1,29 +1,88 @@
 import React from "react";
+import IconButton from '@mui/material/IconButton';
+import Box from '@mui/material/Box';
+import { useTheme, ThemeProvider, createTheme } from '@mui/material/styles';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
+
+const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
+
+function MyApp() {
+  const theme = useTheme();
+  const colorMode = React.useContext(ColorModeContext);
+  return (
+    <Box
+      sx={{
+        display: 'flex',
+        // width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
+        bgcolor: 'background.default',
+        color: 'text.primary',
+        borderRadius: 1,
+        p: 3,
+      }}
+    >
+      {theme.palette.mode} mode
+      <IconButton sx={{ ml: 1 }} onClick={colorMode.toggleColorMode} color="inherit">
+        {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+      </IconButton>
+    </Box>
+  );
+}
 
 const UiUx = () => {
+
+  const [mode, setMode] = React.useState('light');
+  const colorMode = React.useMemo(
+    () => ({
+      toggleColorMode: () => {
+        setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
+      },
+    }),
+    [],
+  );
+
+  const theme = React.useMemo(
+    () =>
+      createTheme({
+        palette: {
+          mode,
+        },
+      }),
+    [mode],
+  );
+
   return (
     <React.StrictMode>
       <div id="blog">
+    <ColorModeContext.Provider value={colorMode}>
+<ThemeProvider theme={theme}>  
+  <Box sx={{bgcolor: 'background.default',color: 'text.primary' }}>
         <div className="blog-content">
+        <MyApp />
           <div className="blog-grid">
-            <div class="container">
+            <div class="container"  style = {{bgcolor: 'background.default', color: 'text.primary'}}>
               <div class="row">
                 <div class="col-md-12">
+                  <Box sx={{bgcolor: 'background.default',color: 'text.primary',border: "groove" }}>
                   <div
-                    class="main-title text-center wow fadeIn"
-                    style={{ marginTop: "80px" }}
+                    // class="main-title text-center wow fadeIn"
+                    style={{ marginTop: "30px"}}
                   >
-                    <h3>Blog Details</h3>
+                    <h3  style={{textAlignLast: 'center'}}>Blog Details</h3>
                     <div class="underline1"></div>
                     <div class="underline2"></div>
-                    <p>
+                    <p style={{textAlignLast: 'center'}}>
                       ReactJS/NodeJS and Web Components everything else
                       accomplished on my spare software development time.
                     </p>
                   </div>
+                  </Box>
                 </div>
               </div>
             </div>
+            <Box>
             <div className="blog-details wow fadeIn text-left">
               <div className="container">
                 <div
@@ -181,8 +240,12 @@ const UiUx = () => {
                 </div>
               </div>
             </div>
+                  </Box>
           </div>
         </div>
+        </Box>
+      </ThemeProvider>
+    </ColorModeContext.Provider>
       </div>
     </React.StrictMode>
   );

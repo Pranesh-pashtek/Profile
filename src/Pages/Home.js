@@ -55,9 +55,10 @@ const Home = () => {
   return (    
     <React.StrictMode>
         <ColorModeContext.Provider value={colorMode}>
-      <ThemeProvider theme={theme}>      
-      <div className="main-page-content" style = {{bgcolor: 'background.default', color: 'text.primary'}}>
-        <div id="home" style = {{bgcolor: 'background.default', color: 'text.primary'}}>
+      <ThemeProvider theme={theme}>  
+      <Box sx={{bgcolor: 'background.default',color: 'text.primary' }}>
+      <div className="main-page-content">
+        <div id="home">
           <div id="particles-js"></div>
           <div className="home-content-main" style = {{bgcolor: 'background.default', color: 'text.primary'}}>
             <div className="table-cell">
@@ -142,12 +143,14 @@ const Home = () => {
         </div>
 
         {/* <!-- ================================ ABOUT =============================== --> */}
-     
+        
+        {/* <MyApp />  */}
         <Box sx={{bgcolor: 'background.default',color: 'text.primary' }}>
-        <div id="about" style = {{bgcolor: 'background.default', color: 'text.primary'}}>
+        <div id="about">
+        {/* <Box sx={{bgcolor: 'background.default',color: 'text.primary' }}> */}
       {/* <MyApp />   */}
-          <div className="about-content" style = {{background: 'background.default', color: 'text.primary'}}>
-            <div className="love-grid text-center" style={{bgcolor: 'background.default !important',color: 'text.primary' }}>
+          <div className="about-content">
+            <div className="love-grid text-center">
               <div className="container">
                 <div className="row">
                   <div className="col-md-12">
@@ -335,6 +338,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+            {/* </Box> */}
         </div>
         </Box>
         
@@ -1394,6 +1398,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+        </Box>
 
       </ThemeProvider>
     </ColorModeContext.Provider>

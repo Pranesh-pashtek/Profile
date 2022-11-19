@@ -90,7 +90,7 @@ function MyApp() {
   );
 
 
-  export default function ToggleColorMode() {
+  export default function ToggleColorModes() {
    const onclick = () => {
       alert("Hai");
     }
