@@ -17,7 +17,7 @@ const UiUx = () => {
                     <div class="underline1"></div>
                     <div class="underline2"></div>
                     <p>
-                      ReactJS/NodeJS-Laravel and Web Components everything else
+                      ReactJS/NodeJS and Web Components everything else
                       accomplished on my spare software development time.
                     </p>
                   </div>
@@ -37,7 +37,7 @@ const UiUx = () => {
                   <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12">
                     <div className="blog-main">
                       <img
-                        src="assets/img/blog-details/ui-ux.jpg"
+                        src="assets/img/blog-details/ui-ux1.jpg"
                         alt="The importance of UI/UX"
                         class="blog-img"
                       />
@@ -48,7 +48,7 @@ const UiUx = () => {
                           </strong>
                         </h3>
                       </div>
-                      <div className="blog-middle">
+                      {/* <div className="blog-middle">
                         <i class="fa fa-user blog-icon" aria-hidden="true"></i>
                         <h2>Admin</h2>
                         <i
@@ -56,7 +56,7 @@ const UiUx = () => {
                           aria-hidden="true"
                         ></i>
                         <h2>28 August 2021</h2>
-                      </div>
+                      </div> */}
                       <div className="blog-bottom">
                         <p>
                           The user interface is the front-end application view
@@ -65,93 +65,45 @@ const UiUx = () => {
                           user interface is:
                         </p>
                         <ul>
-                          <li>Attractive</li>
-                          <li>Simple to use</li>
-                          <li>Responsive in short time</li>
-                          <li>Clear to understand</li>
-                          <li>Consistent on all interface screens</li>
+                          <li>Introduction to UI/UX Design</li>
+                          <li>What is UI/UX Design?</li>
+                          <li>What is the difference between UI and UX?</li>
+                          <li>Importance of a good UI / UX design</li>
+                          <li>Scope for a UI / UX Designer in India</li>
                         </ul>
                         <br />
                         <p>There are two types of User Interface:</p>
-                        <h4>Command Line Interface:</h4>
+                        <h4>Introduction to UI/UX Design:</h4>
                         <p>
-                          Command Line Interface provides a command prompt,
-                          where the user types the command and feeds it to the
-                          system. The user needs to remember the syntax of the
-                          command and its use.
+                        Almost every business is making a move on to the world wide web. And with the growth of digital products and services, user experience has become more important than ever.
+                        These products, which can range from an application to a website, need to have a good User Interface - User Experience (UI – UX) design in order to provide an unforgettable experience for the users.
+                        In fact, user experience (UX) and user interface (UI) design have become crucial to product success and the importance of a good UI / UX design is being reiterated in top businesses across India.
+                        If you want to create a successful product, it all starts with designing a great UX and UI for your target audience. The interface between human and machine requires a new dimension of design that not only looks great but is also seamless and intuitive.
+                        So, what is UI–UX Design? This article discusses the importance of a good UI / UX design and why it needs to be given more weightage in today's competitive marketplace.
                         </p>
-                        <p>
+                        {/* <p>
                           Graphical User Interface: Graphical User Interface
                           provides a simple interactive interface to interact
                           with the system. GUI can be a combination of both
                           hardware and software. Using GUI, the user interprets
                           the software. User Interface Design Process:
-                        </p>
+                        </p> */}
                         <img
-                          src="assets/img/blog-details/ui-ux-process.jpg"
+                          src="assets/img/blog-details/ui-ux-process2.jpg"
                           alt="Hooks are the most valuable things in react"
                           class="blog-img"
                         />
                         <br />
                         <br />
-                        <h4>User Interface Design Process:</h4>
+                        <h4>What is UI/UX Design?</h4>
                         <p>
-                          The analysis and design process of a user interface is
-                          iterative and can be represented by a spiral model.
-                          The analysis and design process of the user interface
-                          consists of four framework activities.
-                        </p>
-                        <p>
-                          <strong>1.</strong> User, task, environmental
-                          analysis, and modelling: Initially, the focus is based
-                          on the profile of users who will interact with the
-                          system, i.e. understanding, skill and knowledge, type
-                          of user, etc, based on the user’s profile users are
-                          made into categories. From each category, requirements
-                          are gathered. Based on the requirements developer
-                          understand how to develop the interface. Once all the
-                          requirements are gathered a detailed analysis is
-                          conducted. In the analysis part, the tasks that the
-                          user performs to establish the goals of the system are
-                          identified, described and elaborated. The analysis of
-                          the user environment focuses on the physical work
-                          environment. Among the questions to be asked are:
-                        </p>
-                        <ul>
-                          <li>
-                            Where will the interface be located physically?
-                          </li>
-                          <li>
-                            Will the user be sitting, standing, or performing
-                            other tasks unrelated to the interface?
-                          </li>
-                          <li>
-                            Does the interface hardware accommodate space,
-                            light, or noise constraints?
-                          </li>
-                          <li>
-                            Are there special human factors considerations
-                            driven by environmental factors?
-                          </li>
-                        </ul>
-                        <br />
-                        <p>
-                          <strong>2.</strong> Interface Design: The goal of this
-                          phase is to define the set of interface objects and
-                          actions i.e. Control mechanisms that enable the user
-                          to perform desired tasks. Indicate how these control
-                          mechanisms affect the system. Specify the action
-                          sequence of tasks and subtasks, also called a user
-                          scenario. Indicate the state of the system when the
-                          user performs a particular task. Always follow the
-                          three golden rules stated by Theo Mandel. Design
-                          issues such as response time, command and action
-                          structure, error handling, and help facilities are
-                          considered as the design model is refined. This phase
-                          serves as the foundation for the implementation phase.
-                        </p>
-                        <p>
-                          <strong>3.</strong> Interface construction and
+                        UX stands for user experience, while UI is short for User Interface. Both these aspects are intertwined to produce the desired results.
+                          {/* <strong>1.</strong>  */}
+                          UI/UX Design is the process of designing the interface, optimizing navigation, and showing relevant features of a product or service. It combines aspects of design with user experience to create interfaces that are easy to use, provide what the users need quickly, look great, are intuitive, and produce an overall positive experience for the user.
+                          {/* <strong>2.</strong> */}
+                           It also caters to user preferences, perceptivity and the emotional quotient. A good UX design increases usability, accessibility, functionality and enables a pleasurable user interaction with your website or app.
+                          {/* <strong>3.</strong>  */}
+                          Interface construction and
                           implementation: The implementation activity begins
                           with the creation of a prototype (model) that enables
                           usage scenarios to be evaluated. As the iterative
@@ -159,71 +111,56 @@ const UiUx = () => {
                           allows the creation of windows, menus, device
                           interaction, error messages, commands, and many other
                           elements of an interactive environment can be used for
-                          completing the construction of an interface.
+                          completing the construction of an interface.                        
+                          {/* <strong>4.</strong>  */}
+                          A UX design degree is considered to be one of the most lucrative streams in the digital marketing scenario.
                         </p>
+                        <h4>What is the difference between UI and UX?</h4>
                         <p>
-                          <strong>4.</strong> Interface Validation: This phase
-                          focuses on testing the interface. The interface should
-                          be in such a way that it should be able to perform
-                          tasks correctly and it should be able to handle a
-                          variety of tasks. It should achieve all the user’s
-                          requirements. It should be easy to use and easy to
-                          learn. Users should accept the interface as a useful
-                          one in their work.
+                        Though both UX and UI are often used in the same context, it definitely means two different things. However, one cannot thrive without the other. So what is the difference between the two?
+                        <img
+                          src="assets/img/blog-details/ui-ux-process3.jpg"
+                          alt="Hooks are the most valuable things in react"
+                          class="blog-img"
+                        />
                         </p>
-                        <h5>Golden Rules:</h5>
-                        <p>
-                          The following are the golden rules stated by Theo
-                          Mandel that must be followed during the design of the
-                          interface.
-                        </p>
-                        <p>Place the user in control:</p>
+                        <p>UX is the experience a user has with a product or service or during the journey of landing in a website to the end action taken by the user. It is a more holistic term, which includes how a person feels about a product and the actions that are triggered due to the experience. It is all about the emotions that are provoked when interacting with a digital product.
+
+                         UI is more design oriented and inclines towards the look and feel of the product. The aim is to create an intuitive platform with interactive elements like icons, buttons, typography, color scheme, imagery, etc…</p>
+                        <h4>Importance of a good UI / UX design</h4>
+                        <p>A good UI / UX design helps you get better results in the long run. It can help you generate more leads and improve conversion rates. This translates to better revenues for your company.
+
+                        With a great UI / UX design, you can easily fulfill the needs of your clients, increase the customer’s willingness to pay by almost 15% and increase brand loyalty by 16%.
+
+                        According to Forrester, a leading global market research company, a great User Interface of a website can increase the conversion rate by 200%, while a seamless UX can increase it by 300% - 400%. These numbers are staggering and can revolutionize the life cycle of your customer’s journey.</p>
+                        <h4>Scope of a UI / UX Designer in India</h4>
+                        <p> With the emergence of design centric organizations and businesses, and an increased need for UI / UX support for websites, eCommerce sites and landing pages for products and services, a UI / UX career will have an escalated growth and innumerable opportunities in the coming decade.
+                        There will be high demand for innovation and creativity in this field and a UI / UX designer will be sought out by top hiring companies across the globe.
+                        A designer’s job skills also extends to creating stunning banners, email campaigns, video games and many client-based mobile applications.
+                        The list where you can apply UI / UX design skills and theories is endless!
+                        There are companies like Airbnb and Netflix that have some of the best User Experiences that help engage more audiences which in turn generate revenue in billions.  </p>
+                        <h4>Interesting facts</h4>
                         <ul>
                           <li>
-                            Define the interaction modes in such a way that does
-                            not force the user into unnecessary or undesired
-                            actions: The user should be able to easily enter and
-                            exit the mode with little or no effort.
+                          LinkedIn ranked UX Design as one of the top 5 in demand skills in their latest survey.
                           </li>
                           <li>
-                            Provide for flexible interaction: Different people
-                            will use different interaction mechanisms, some
-                            might use keyboard commands, some might use a mouse,
-                            some might use the touch screen, etc, Hence all
-                            interaction mechanisms should be provided.
+                          UI/UX is listed among the best 50 jobs to have in 2021/22 by Glassdoor
                           </li>
                           <li>
-                            Allow user interaction to be interruptable and
-                            undoable: When a user is doing a sequence of actions
-                            the user must be able to interrupt the sequence to
-                            do some other work without losing the work that had
-                            been done. The user should also be able to do undo
-                            operations.
+                          The demand for UI/UX professionals is likely to grow by 18% between 2021-2025
                           </li>
                           <li>
-                            Streamline interaction as skill level advances and
-                            allow the interaction to be customized: Advanced or
-                            highly skilled users should be provided with a
-                            chance to customize the interface as the user wants
-                            which allows different interaction mechanisms so
-                            that the user doesn’t feel bored while using the
-                            same interaction mechanism.
-                          </li>
-                          <li>
-                            Hide technical internals from casual users: The user
-                            should not be aware of the internal technical
-                            details of the system. He should interact with the
-                            interface just to do his work.
-                          </li>
-                          <li>
-                            Design for direct interaction with objects that
-                            appear on the screen: The user should be able to use
-                            the objects and manipulate the objects that are
-                            present on the screen to perform a necessary task.
-                            By this, the user feels easy to control over the
-                            screen.
+                          There are far fewer UI/UX designers than those who can meet the demands of the market all over the world.
                           </li>
                         </ul>
+                        <h4>Conclusion</h4>
+                        <p>
+                        UX design is proving to be as important as product and price as a key brand differentiator in the present as well as the future. In order for this shift to continue, designers need to think forward and understand the investment involved in UX design and its potential.
+                        For businesses, this is the time to shift focus from long-term business goals to user goals, so that they can stay ahead of the curve in the coming decade and beyond. It's important to consider UX designing as a critical component of their marketing plan.
+                        And as budding UI / UX designers or for those who wish to pursue a UI / UX design degree, it is imperative for us to face the fear and step up for a truly rewarding experience in the arena of UI / UX Design.
+                        Also read the second part from this series, “A guide to career tracks for a UI / UX Designer” to gain more insights on career prospects for this subject of study.
+                        </p>                        
                         <br />
 
                         {/* Go to www.addthis.com/dashboard to customize your tools */}
@@ -235,9 +172,9 @@ const UiUx = () => {
                         <li>
                           <a href="/react-hooks">Previous Post</a>
                         </li>
-                        <li>
-                          <a href="/form-example">Next Post</a>
-                        </li>
+                        {/* <li>
+                          <a href="/react-hooks">Next Post</a>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
