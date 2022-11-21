@@ -56,11 +56,11 @@ const Home = () => {
     <React.StrictMode>
         <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>  
-      <Box sx={{bgcolor: 'background.default',color: 'text.primary' }}>
+      <Box>
       <div className="main-page-content">
         <div id="home">
           <div id="particles-js"></div>
-          <div className="home-content-main" style = {{bgcolor: 'background.default', color: 'text.primary'}}>
+          <div className="home-content-main">
             <div className="table-cell">
               <div className="container">
                 <div className="row home-row">
@@ -537,7 +537,7 @@ const Home = () => {
                         <div className="underline2"></div>
                         <p>
                           I did an internship at CrossHurdle LLP as a
-                          Republication Developer
+                          Frontend and Backend Developer
                         </p>
                       </div>
                     </div>

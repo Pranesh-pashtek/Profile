@@ -15,6 +15,7 @@ import ToggleColorMode from "./Pages/sample";
 import ReactHooks from "./Pages/ReactHooks";
 import UiUx from "./Pages/UiUx";
 import FormExample from "./Pages/FormExample";
+import ReactRedux from "./Pages/ReactRedux";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/react-hooks" component={ReactHooks} />
             <Route exact path="/ui-ux" component={UiUx} />
+            <Route exact path="/ReactRedux" component={ReactRedux} />
             {/* <Route exact path="/sample" component={ToggleColorMode} /> */}
             <Route exact path="/form-example" component={FormExample} />
           </Switch>

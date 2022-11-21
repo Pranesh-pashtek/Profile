@@ -77,7 +77,7 @@ const ReactHooks = () => {
                     <div class="underline1"></div>
                     <div class="underline2"></div>
                     <p style={{textAlignLast: 'center'}}>
-                      ReactJS/Php-Laravel and Web Components everything else
+                      ReactJS and Web Components everything else
                       accomplished on my spare software development time.
                     </p>
                   </div>
@@ -98,7 +98,7 @@ const ReactHooks = () => {
                   <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12">
                     <div className="blog-main">
                       <img
-                        src="assets/img/blog-details/react-hoooks.jpg"
+                        src="assets/img/blog-details/hooks.png"
                         alt="React hooks were introduced in version 16.8"
                         class="blog-img"
                       />
@@ -217,7 +217,7 @@ const ReactHooks = () => {
                     <div className="pagination">
                       <ul>
                         <li>
-                          <a href="/ui-ux">Next Post</a>
+                          <a href="/ReactRedux">Next Post</a>
                         </li>
                       </ul>
                     </div>
