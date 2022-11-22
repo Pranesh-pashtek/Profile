@@ -217,7 +217,7 @@ const ReactHooks = () => {
                     <div className="pagination">
                       <ul>
                         <li>
-                          <a href="/ReactRedux">Next Post</a>
+                          <a href="/Advance_react">Next Post</a>
                         </li>
                       </ul>
                     </div>

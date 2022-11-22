@@ -229,7 +229,7 @@ const UiUx = () => {
                     <div className="pagination">
                       <ul>
                         <li>
-                          <a href="/ReactRedux  ">Previous Post</a>
+                          <a href="/ReactRedux">Previous Post</a>
                         </li>
                         {/* <li>
                           <a href="/react-hooks">Next Post</a>

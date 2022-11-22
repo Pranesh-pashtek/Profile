@@ -16,7 +16,7 @@ import ReactHooks from "./Pages/ReactHooks";
 import UiUx from "./Pages/UiUx";
 import FormExample from "./Pages/FormExample";
 import ReactRedux from "./Pages/ReactRedux";
-
+import Advance_react from "./Pages/Advance_react";
 function App() {
   return (
     <React.StrictMode>
@@ -30,6 +30,7 @@ function App() {
             <Route exact path="/ReactRedux" component={ReactRedux} />
             {/* <Route exact path="/sample" component={ToggleColorMode} /> */}
             <Route exact path="/form-example" component={FormExample} />
+            <Route exact path="/Advance_react" component={Advance_react} />
           </Switch>
         </ScrollToTop>
         <Footer />
@@ -39,3 +40,4 @@ function App() {
 }
 
 export default App;
+// Advance_react

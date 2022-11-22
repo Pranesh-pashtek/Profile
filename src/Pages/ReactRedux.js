@@ -174,7 +174,7 @@ const ReactRedux = () => {
                         You should not feel obliged to perform them exactly as I do. You should refer to the Redux toolkit documentation in case of missing snippets.
                         </p>
                         <img
-                          src="assets/img/blog-details/ui.png"
+                          src="assets/img/blog-details/redux.png"
                           alt="Hooks are the most valuable things in react"
                           class="blog-img"
                         />
@@ -288,6 +288,7 @@ const ReactRedux = () => {
                         <p>We've officially created a redux toolkit application, and you have seen how easy it is to work with stores.
                              Redux toolkit is very beginner-friendly and has its own advantages over redux. Want to get more out of React? 
                              Check out our amazing KnowledgeHut’s Reactjs online training.</p>
+                        <h3>Example:</h3>
                              <img
                           src="assets/img/blog-details/ui1.gif"
                           alt="Hooks are the most valuable things in react"
@@ -319,7 +320,7 @@ const ReactRedux = () => {
                     <div className="pagination">
                     <ul>
                         <li>
-                          <a href="/react-hooks">Previous Post</a>
+                          <a href="/Advance_react">Previous Post</a>
                         </li>
                         <li>
                           <a href="/ui-ux">Next Post</a>
