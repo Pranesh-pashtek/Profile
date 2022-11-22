@@ -12,6 +12,7 @@ import ScrollToTop from "./component/ScrollToTop";
 // import Pages
 import Home from "./Pages/Home";
 import ToggleColorMode from "./Pages/sample";
+import Blog_home from "./Pages/Blog_home";
 import ReactHooks from "./Pages/ReactHooks";
 import UiUx from "./Pages/UiUx";
 import FormExample from "./Pages/FormExample";
@@ -31,6 +32,7 @@ function App() {
             {/* <Route exact path="/sample" component={ToggleColorMode} /> */}
             <Route exact path="/form-example" component={FormExample} />
             <Route exact path="/Advance_react" component={Advance_react} />
+            <Route exact path="/Blog_home" component={Blog_home} />
           </Switch>
         </ScrollToTop>
         <Footer />
@@ -41,3 +43,4 @@ function App() {
 
 export default App;
 // Advance_react
+// Blog_home

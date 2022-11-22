@@ -1399,7 +1399,6 @@ const Home = () => {
         </div>
       </div>
         </Box>
-
       </ThemeProvider>
     </ColorModeContext.Provider>
     </React.StrictMode>
