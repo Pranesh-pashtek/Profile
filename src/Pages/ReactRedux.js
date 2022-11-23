@@ -320,11 +320,11 @@ const ReactRedux = () => {
                     <div className="pagination">
                     <ul>
                         <li>
-                          <a href="/Advance_react">Previous Post</a>
+                        <a href="/Blog_home">Go Back</a>
                         </li>
-                        <li>
+                        {/* <li>
                           <a href="/ui-ux">Next Post</a>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>

@@ -10,7 +10,7 @@ const Blog_home = () => {
               <div className="container">
                 <div className="row">
                   <div className="col-md-12">
-                    <div className="main-title text-center wow fadeIn">
+                    <div className="main-title text-center wow fadeIn" style={{ marginTop : "20px"}}>
                       <h3>Blogs</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>

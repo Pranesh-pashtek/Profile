@@ -328,11 +328,11 @@ const Advance_react = () => {
                     </div>
                     <div className="pagination">
                     <ul>
-                        <li>
+                        {/* <li>
                           <a href="/react-hooks">Previous Post</a>
-                        </li>
+                        </li> */}
                         <li>
-                          <a href="/ReactRedux">Next Post</a>
+                          <a href="/Blog_home">Go Back</a>
                         </li>
                       </ul>
                     </div>
