@@ -18,6 +18,7 @@ import UiUx from "./Pages/UiUx";
 import FormExample from "./Pages/FormExample";
 import ReactRedux from "./Pages/ReactRedux";
 import Advance_react from "./Pages/Advance_react";
+import Interview_questions from "./Pages/Interview_questions";
 function App() {
   return (
     <React.StrictMode>
@@ -33,6 +34,7 @@ function App() {
             <Route exact path="/form-example" component={FormExample} />
             <Route exact path="/Advance_react" component={Advance_react} />
             <Route exact path="/Blog_home" component={Blog_home} />
+            <Route exact path="/Interview_questions" component={Interview_questions} />
           </Switch>
         </ScrollToTop>
         <Footer />
@@ -44,3 +46,4 @@ function App() {
 export default App;
 // Advance_react
 // Blog_home
+// Interview_questions

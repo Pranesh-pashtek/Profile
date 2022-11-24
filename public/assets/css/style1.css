@@ -322,12 +322,49 @@ body {
 
 
 
+/* .containers {
+  width: 75%;
+  margin: 0 auto;
+  font-family: sans-serif;
+} */
+.text-red {
+  color: rgb(0, 0, 0);
+}
+.blink-soft {
+  animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 
+hr {
+  background-color: #d4d4d4;
+  color: #d4d4d4;
+  height: 1px;
+  border: 0;
+  clear: both;
+}
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 
+.highlight {color: rgb(255, 0, 0)}
 
 
 #background{ 
