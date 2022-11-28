@@ -7,7 +7,7 @@ const Blog_home = () => {
 <div id="service">
           <div className="service-content">
             <div className="service-grid text-center">
-              <div className="container" style={{width: "1636px"}}>
+              <div className="container">
                 <div className="row">
                   <div className="col-md-12" >
                     <div className="main-title text-center wow fadeIn" style={{ marginTop : "20px"}}>
