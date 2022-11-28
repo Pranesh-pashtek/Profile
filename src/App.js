@@ -19,6 +19,8 @@ import FormExample from "./Pages/FormExample";
 import ReactRedux from "./Pages/ReactRedux";
 import Advance_react from "./Pages/Advance_react";
 import Interview_questions from "./Pages/Interview_questions";
+import Myworks from "./Pages/Myworks";
+import Myjournal from "./Pages/Myjournal";
 function App() {
   return (
     <React.StrictMode>
@@ -35,6 +37,8 @@ function App() {
             <Route exact path="/Advance_react" component={Advance_react} />
             <Route exact path="/Blog_home" component={Blog_home} />
             <Route exact path="/Interview_questions" component={Interview_questions} />
+            <Route exact path="/Myworks" component={Myworks} />            
+            <Route exact path="/Myjournal" component={Myjournal} />
           </Switch>
         </ScrollToTop>
         <Footer />

@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom"; 
 
-const Blog_home = () => {
+const Myworks = () => {
     return ( 
 <React.StrictMode>
 <div id="service">
           <div className="service-content">
             <div className="service-grid text-center">
-              <div className="container">
+              <div className="container" style={{width: "1636px"}}>
                 <div className="row">
                   <div className="col-md-12" >
                     <div className="main-title text-center wow fadeIn" style={{ marginTop : "20px"}}>
@@ -15,7 +15,7 @@ const Blog_home = () => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        Blogs Topics
+                        My Works 
                       </p>
                     </div>
                   </div>
@@ -23,7 +23,7 @@ const Blog_home = () => {
                 </div>
                 <div className="container" style={{width: "1636px"}}>
                 <div className="row love-row wow fadeIn">
-                      <a href="/react-hooks" >
+                      <a href="/Myjournal" >
                   <div className="col-md-3 col-sm-5" style={{width: "20%"}}>
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
@@ -37,7 +37,7 @@ const Blog_home = () => {
                           className="fa fa-anchor service-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>React JS Hooks</h3>
+                        <h3>My Journal</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
@@ -204,4 +204,4 @@ const Blog_home = () => {
 </React.StrictMode>
     );
 };
-export default Blog_home;
+export default Myworks;

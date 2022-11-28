@@ -95,10 +95,10 @@ const ReactHooks = () => {
                     justifyContent: "center",
                   }}
                 >
-                  <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12">
+                  <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12" style={{width: "auto"}}>
                     <div className="blog-main">
                       <img
-                        src="assets/img/blog-details/hooks.png"
+                        src="assets/img/blog-details/hooks1.png"
                         alt="React hooks were introduced in version 16.8"
                         class="blog-img"
                       />
@@ -118,29 +118,42 @@ const ReactHooks = () => {
                       </div> */}
                       <div className="blog-bottom">
                         <p>
-                          In this article, you will learn what are hooks in
-                          React JS? and when to use react hooks? React JS is
-                          developed by Facebook in the year 2013. There are many
-                          students and the new developers who have confusion
-                          between react and hooks in react. Well, it is not
-                          different, react is a programming language and hooks
-                          is a function that is used in react programming
-                          language.
+                        React Hooks are completely opt-in which means that 
+                        rewriting existing code is unecessary, they do not 
+                        contain any breaking changes, and they’re available 
+                        for use with the release of React 16.8. Some curious 
+                        developers have been making use of the Hooks API even 
+                        before it was released officially, but back then it 
+                        was not stable and was only an experimental feature. 
+                        Now it is stable and recommended for React developers to use.
                         </p>
+                        <hr />
                         <h4>When were hooks introduce?</h4>
                         <p>
-                          React hooks are introduced in version 16.8 which is
-                          the recent Update in the react programming language.
-                          The concept of hooks has made the programming so
-                          easier for the react developers that everyone is now
-                          adapting the Hooks concept in their programming.
+                        First released in October of 2018, the React hook APIs 
+                        provide an alternative to writing class-based components,
+                         and offer an alternative approach to state management 
+                         and lifecycle methods. Hooks bring to functional components 
+                         the things we once were only able to do with classes, 
+                         like being able to work with React local state, effects and 
+                         context through useState, useEffect and useContext.
                         </p>
                         <p>
-                          React hooks are always utilized in a useState and
-                          other react features without writing a class. React
-                          hooks are the functions that hook into the react state
-                          life-cycle features from the function components.
+                        React Hooks are in-built functions that allow React developers 
+                        to use state and lifecycle methods inside functional components, 
+                        they also work together with existing code, so they can easily be 
+                        adopted into a codebase. The way Hooks were pitched to the public 
+                        was that they allow developers to use state in functional components 
+                        but under the hood, Hooks are much more powerful than that. 
+                        They allow React Developers to enjoy the following benefits:
                         </p>
+                        <ul>
+                                <li>Improved code reuse;</li>
+                                <li>Better code composition;</li>
+                                <li>Better defaults;</li>
+                                <li>Sharing non-visual logic with the use of custom hooks;</li>
+                                <li>Flexibility in moving up and down the components tree.</li>
+                         </ul>
                         <p>
                           Like other features in react hooks does not work
                           inside the classes it needs to be separated from the
@@ -161,27 +174,27 @@ const ReactHooks = () => {
                           the functional component.
                         </p>
                         <img
-                          src="assets/img/blog-details/react-hooks-about.jpg"
+                          src="assets/img/blog-details/hooks2.png"
                           alt="Hooks are the most valuable things in react"
                           class="blog-img"
                         />
+                        <hr />
                         <br />
                         <br />
                         <h4>What are the requirements to use react hooks?</h4>
                         <p>
-                          As we have mentioned that the react hooks are
-                          introduced in the version of 16.8. To make sure that
-                          the react hooks works properly. The developer should
-                          make sure that he or she is using the NODE version of
-                          6 or above and the NPM version 5.2 or above. If the
-                          versions are below this criterion the react hooks will
-                          not work exactly the way you wish to see it. It is
-                          very important to know when to use react hooks.
+                        React Hooks are a new addition in React 16.8 that let 
+                        you use state and other React features without writing 
+                        a class component. In other words, Hooks are functions 
+                        that let you “hook into” React state and lifecycle features 
+                        from function components. (They do not work inside class components.)
                         </p>
                         <p>
-                          Let’s write a small program of Hooks function using a
-                          useState. We will be making a program of increasing
-                          numbers on the button click.
+                        React provides a few built-in Hooks like useState. You can also create your 
+                        own Hooks to reuse stateful behavior between different components. 
+                        The example below shows a counter whose state is managed using the 
+                        useState() hook. Each time you click on the button, we make use of 
+                        setCount() to update the value of count by 1.
                         </p>
                         <p>
                           When you add useState you will see that an extension

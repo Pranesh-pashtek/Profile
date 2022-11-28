@@ -94,7 +94,7 @@ const Advance_react = () => {
                     justifyContent: "center",
                   }}
                 >
-                  <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12">
+                  <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12" style={{width: "auto"}}>
                     <div className="blog-main">
                       <img
                         src="assets/img/blog-details/r.jpg"
@@ -128,6 +128,7 @@ const Advance_react = () => {
                         (but this relies on some problems with code fails that get at “then” instead of “catch” and needs extra steps like response.json() 
                         and doesn’t have interceptors or all kind of stuff that makes Axios and other libs easier).
                         </p>
+                        <hr />
                         <h3><strong>2. Lazyloading </strong> </h3>
                         <p>
                         Code-Splitting is a feature supported by bundlers like Webpack, 
@@ -147,6 +148,7 @@ const Advance_react = () => {
                         <SyntaxHighlighter language="javascript" style={docco}>
                           {"const OtherComponent = React.lazy(() => import('./OtherComponent'));\nconst AnotherComponent = React.lazy(() => import('./AnotherComponent'));\n\nfunction MyComponent() {\nreturn (\n<div>\n<Suspense fallback={<div>Loading...</div>}>\n<section>\n<OtherComponent />\n<AnotherComponent />\n</section>\n</Suspense>\n</div>\n);\n}"}
                         </SyntaxHighlighter>
+                        <hr />
                         <h3><strong>3. Error Boundaries  </strong> </h3>
                         <p>
                         Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, 
@@ -156,6 +158,7 @@ const Advance_react = () => {
                         <SyntaxHighlighter language="javascript" style={docco}>
                           {"class ErrorBoundary extends React.Component {\nconstructor(props) {\nsuper(props);\nthis.state = { hasError: false };\n }\n\nstatic getDerivedStateFromError(error) {\n// Update state so the next render will show the fallback UI.\n return { hasError: true };\n }\n\ncomponentDidCatch(error, errorInfo) {\n // You can also log the error to an error reporting service\nlogErrorToMyService(error, errorInfo);\n}\n\nrender() {\n if (this.state.hasError) {\n// You can render any custom fallback UI\n return <h1>Something went wrong.</h1>;\n }\n\nreturn this.props.children;\n }\n }\nThen you can use this as a wrapper component:\n<ErrorBoundary>\n<MyWidget />\n</ErrorBoundary>"}
                         </SyntaxHighlighter>
+                        <hr />
                         <h3><strong> 4. Webworkers  </strong> </h3>
                         <p>Web Workers makes it possible to run a script operation in a background thread separate from the main execution thread of a web application. 
                             The advantage of this is that laborious processing can be performed in a separate thread, allowing the main (usually the UI) 
@@ -164,6 +167,7 @@ const Advance_react = () => {
                         <SyntaxHighlighter language="javascript" style={docco}>
                           {"var w;\nfunction startWorker() {\n if (typeof(Worker) !== 'undefined') {\n if (typeof(w) == 'undefined') {\n w = new Worker('demo_workers.js');\n}\nw.onmessage = function(event) {\n document.getElementById('result').innerHTML = event.data;\n }\n};\n} else {\n document.getElementById('result').innerHTML = 'Sorry! No Web Worker support.';\n}\n}\nfunction stopWorker() {\n w.terminate();\n w = undefined;\n}"}
                         </SyntaxHighlighter>
+                        <hr />
                         <h3><strong> 5. IndexDB </strong> </h3>
                         <p>IndexDB is a built-in database, much more powerful than localStorage. Key/value storage: value can be (almost) anything, 
                             multiple key types. Supports transactions for reliability. 
@@ -184,6 +188,7 @@ const Advance_react = () => {
                         and/or access-control-allow-headers.JSON Web Tokens (JWTs) make it easy to send read-only signed “claims” between services 
                         (both internal and external to your app/site). Claims are any bits of data that you want someone else to be able to read and/or verify but not alter.
                         </p>
+                        <hr />
                         <h3><strong> 6. Performance checkers </strong> </h3>
                         <ul>
                           <li> Audits: Lighthouse is an open-source, automated tool for improving the quality of web pages. 
@@ -200,6 +205,7 @@ const Advance_react = () => {
                              One of them is FPS that checks how fluid is your page, the best value to FPS is at 60. So, 
                              if is lower than that that means you have space to work on performance.</li>
                         </ul>
+                        <hr />
                         <h3><strong> 7. PWAs </strong> </h3>
                         <p>Progressive web applications (PWAs) are a type of application software delivered through the web, 
                             built using common web technologies including HTML, CSS and JavaScript. 
@@ -216,6 +222,7 @@ const Advance_react = () => {
                           alt="Hooks are the most valuable things in react"
                           class="blog-img"
                         />  
+                        <hr />
                         <h3><strong> 8. Realtime </strong> </h3>
                         <p>
                         The WebSocket protocol, described in the specification RFC 6455 provides a way to exchange data between browser and server via a persistent connection. 
@@ -238,6 +245,7 @@ const Advance_react = () => {
                         <SyntaxHighlighter language="javascript" style={docco}>
                           {"let eventSource = new EventSource('/events/subscribe');\neventSource.onmessage = function(event) {\n  console.log('New message', event.data);\n  // will log 3 times for the data stream above\n};\n\n // or eventSource.addEventListener('message', ...)"}
                         </SyntaxHighlighter>
+                        <hr />
                         <h3><strong> 9. CSS performance  </strong> </h3>
                         <ul>
                           <li> Don’t use CSS icons, use SVG.</li>
@@ -247,6 +255,7 @@ const Advance_react = () => {
                           <li> Minify it.</li>
                           <li> Split the CSS imports and call it above the elements that use it. Component based CSS</li>
                         </ul>
+                        <hr />
                         <h3><strong> 10.Advanced hooks  </strong> </h3>
                         <p>
                         useMemo Returns a memoized value. Pass a “create” function and an array of dependencies. 
@@ -282,6 +291,7 @@ const Advance_react = () => {
                           alt="Hooks are the most valuable things in react"
                           class="blog-img"
                         />  
+                        <hr />
                         <h3><strong> 11. React memo  </strong> </h3>
                         <p>React memo is a high order component that basically checks if the component should re-render. 
                             If really is receiving some changes, so its parent can re-render and keeps it from re-render if is not necessary.
@@ -292,6 +302,7 @@ const Advance_react = () => {
                         <SyntaxHighlighter language="javascript" style={docco}>
                           {"export default React.memo(ComponentName)"}
                         </SyntaxHighlighter>
+                        <hr />
                         <h3><strong> 12. TDD  </strong> </h3>
                         <p>Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle:
                              requirements are turned into very specific test cases, then the software is improved so that the tests pass.
@@ -300,7 +311,8 @@ const Advance_react = () => {
                           src="assets/img/blog-details/TDD.png"
                           alt="Hooks are the most valuable things in react"
                           class="blog-img"
-                        />                       
+                        />    
+                        <hr />                   
                         <h3><strong> 13. Big lists  </strong> </h3>
                         <ul>
                           <li> The state resides in the highest level component, the Search component.</li>
