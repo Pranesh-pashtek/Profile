@@ -94,7 +94,7 @@ const Advance_react = () => {
                     justifyContent: "center",
                   }}
                 >
-                  <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12" style={{width: "auto"}}>
+                  <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12">
                     <div className="blog-main">
                       <img
                         src="assets/img/blog-details/r.jpg"
