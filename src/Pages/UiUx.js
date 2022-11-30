@@ -60,23 +60,23 @@ const UiUx = () => {
 <ThemeProvider theme={theme}>  
   <Box sx={{bgcolor: 'background.default',color: 'text.primary' }}>
         <div className="blog-content">
-        <MyApp />
+        {/* <MyApp /> */}
           <div className="blog-grid">
             <div class="container"  style = {{bgcolor: 'background.default', color: 'text.primary'}}>
               <div class="row">
                 <div class="col-md-12">
-                  <Box sx={{bgcolor: 'background.default',color: 'text.primary',border: "groove" }}>
+                  <Box sx={{bgcolor: 'background.default',color: 'text.primary'}}>
                   <div
                     // class="main-title text-center wow fadeIn"
                     style={{ marginTop: "30px"}}
                   >
-                    <h3  style={{textAlignLast: 'center'}}>Blog Details</h3>
+                    <h3  style={{textAlignLast: 'center'}}>UI/UX</h3>
                     <div class="underline1"></div>
                     <div class="underline2"></div>
-                    <p style={{textAlignLast: 'center'}}>
+                    {/* <p style={{textAlignLast: 'center'}}>
                       ReactJS/NodeJS and Web Components everything else
                       accomplished on my spare software development time.
-                    </p>
+                    </p> */}
                   </div>
                   </Box>
                 </div>
@@ -84,7 +84,7 @@ const UiUx = () => {
             </div>
             <Box>
             <div className="blog-details wow fadeIn text-left">
-              <div className="container">
+              {/* <div className="container"> */}
                 <div
                   className="row"
                   style={{
@@ -255,9 +255,9 @@ const UiUx = () => {
                         Digital agency GRM Digital has a team of web development & design 
                         experts and UI/UX team that can help you towards a website that 
                         reflects your brand and makes your users happy. 
-                        </p>                        
+                        </p>
+                        <hr />                        
                         <br />
-
                         {/* Go to www.addthis.com/dashboard to customize your tools */}
                         <div class="addthis_inline_share_toolbox"></div>
                       </div>
@@ -274,7 +274,7 @@ const UiUx = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
                   </Box>
           </div>

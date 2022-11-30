@@ -21,6 +21,7 @@ import Advance_react from "./Pages/Advance_react";
 import Interview_questions from "./Pages/Interview_questions";
 import Myworks from "./Pages/Myworks";
 import Myjournal from "./Pages/Myjournal";
+import Blog5 from "./Pages/Blog5";
 function App() {
   return (
     <React.StrictMode>
@@ -38,7 +39,8 @@ function App() {
             <Route exact path="/Blog_home" component={Blog_home} />
             <Route exact path="/Interview_questions" component={Interview_questions} />
             <Route exact path="/Myworks" component={Myworks} />            
-            <Route exact path="/Myjournal" component={Myjournal} />
+            <Route exact path="/Myjournal" component={Myjournal} />            
+            <Route exact path="/Blog5" component={Blog5} />
           </Switch>
         </ScrollToTop>
         <Footer />

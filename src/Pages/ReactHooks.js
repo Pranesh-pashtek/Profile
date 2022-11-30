@@ -63,30 +63,28 @@ const ReactHooks = () => {
 <ThemeProvider theme={theme}>  
   <Box sx={{bgcolor: 'background.default',color: 'text.primary' }}>
         <div className="blog-content">
-        <MyApp />
+        {/* <MyApp /> */}
           <div className="blog-grid">
-            <div class="container">
+            {/* <div class="container"> */}
               <div class="row">
                 <div class="col-md-12">
-                <Box sx={{bgcolor: 'background.default',color: 'text.primary',border: "groove" }}>
+                <Box sx={{bgcolor: 'background.default',color: 'text.primary'}}>
                   <div
                     // class="main-title text-center wow fadeIn"
                     style={{ marginTop: "30px" }}
                   >
-                    <h3 style={{textAlignLast: 'center'}}>Blog Details</h3>
+                    <h3 style={{textAlignLast: 'center'}}>React Hooks</h3>
                     <div class="underline1"></div>
                     <div class="underline2"></div>
-                    <p style={{textAlignLast: 'center'}}>
-                      ReactJS and Web Components everything else
-                      accomplished on my spare software development time.
-                    </p>
+                    {/* <p style={{textAlignLast: 'center'}}>
+                    </p> */}
                   </div>
                   </Box>
                 </div>
               </div>
-            </div>
+            {/* </div> */}
             <div className="blog-details wow fadeIn text-left">
-              <div className="container">
+              {/* <div className="container"> */}
                 <div
                   className="row"
                   style={{
@@ -180,7 +178,6 @@ const ReactHooks = () => {
                         />
                         <hr />
                         <br />
-                        <br />
                         <h4>What are the requirements to use react hooks?</h4>
                         <p>
                         React Hooks are a new addition in React 16.8 that let 
@@ -204,7 +201,7 @@ const ReactHooks = () => {
                         <SyntaxHighlighter language="javascript" style={docco}>
                           {"import React, { useState } from “react”;"}
                         </SyntaxHighlighter>
-                        <p>Syntax:-</p>
+                       Syntax:-
                         <SyntaxHighlighter language="javascript" style={docco}>
                           {
                             "const [count, setCount] = useState(0);\nconst ButtonClick = () => {\nsetCount(count + 1);\n};"
@@ -222,7 +219,7 @@ const ReactHooks = () => {
                           ask in the comment Info At One always try our best to
                           help you with it…
                         </p>
-
+                        <hr />
                         {/* Go to www.addthis.com/dashboard to customize your tools */}
                         <div class="addthis_inline_share_toolbox"></div>
                       </div>
@@ -236,7 +233,7 @@ const ReactHooks = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>

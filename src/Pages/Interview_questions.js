@@ -63,29 +63,29 @@ const Interview_questions = () => {
           <ThemeProvider theme={theme}>
             <Box sx={{ bgcolor: 'background.default', color: 'text.primary' }}>
               <div className="blog-content">
-                <MyApp />
+                {/* <MyApp /> */}
                 <div className="blog-grid">
                   <div class="container">
                     <div class="row">
                       <div class="col-md-12">
-                        <Box sx={{ bgcolor: 'background.default', color: 'text.primary', border: "groove" }}>
+                        <Box sx={{ bgcolor: 'background.default', color: 'text.primary'}}>
                           <div
                             // class="main-title text-center wow fadeIn"
                             style={{ marginTop: "30px" }}
                           >
-                            <h3 style={{ textAlignLast: 'center' }}>Blog Details</h3>
+                            <h3 style={{ textAlignLast: 'center' }}>React Interview Question & Answer</h3>
                             <div class="underline1"></div>
                             <div class="underline2"></div>
-                            <p style={{ textAlignLast: 'center' }}>
+                            {/* <p style={{ textAlignLast: 'center' }}>
                               ReactJS Interview Based Question And Answer.
-                            </p>
+                            </p> */}
                           </div>
                         </Box>
                       </div>
                     </div>
                   </div>
                   <div className="blog-details wow fadeIn text-left">
-                    <div className="container">
+                    {/* <div className="container"> */}
                       <div
                         className="row"
                         style={{
@@ -544,6 +544,7 @@ const Interview_questions = () => {
                                 <p>A higher-order component acts as a container for other components. 
                                   This helps to keep components simple and enables re-usability. 
                                   They are generally used when multiple components have to use a common logic. <span className="highlight">(Return a new Component)</span></p>
+                                  <hr />
                               {/* Go to www.addthis.com/dashboard to customize your tools */}
                               <div class="addthis_inline_share_toolbox"></div>
                             </div>
@@ -559,7 +560,7 @@ const Interview_questions = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                {/* </div> */}
               </div>
             </Box>
           </ThemeProvider>

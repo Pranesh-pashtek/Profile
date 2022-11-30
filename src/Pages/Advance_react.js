@@ -63,12 +63,12 @@ const Advance_react = () => {
 <ThemeProvider theme={theme}>  
   <Box sx={{bgcolor: 'background.default',color: 'text.primary' }}>
         <div className="blog-content">
-        <MyApp />
+        {/* <MyApp /> */}
           <div className="blog-grid">
-            <div class="container">
+            {/* <div class="container"> */}
               <div class="row">
                 <div class="col-md-12">
-                <Box sx={{bgcolor: 'background.default',color: 'text.primary',border: "groove" }}>
+                <Box sx={{bgcolor: 'background.default',color: 'text.primary'}}>
                   <div
                     // class="main-title text-center wow fadeIn"
                     style={{ marginTop: "30px" }}
@@ -83,9 +83,9 @@ const Advance_react = () => {
                   </Box>
                 </div>
               </div>
-            </div>
+            {/* </div> */}
             <div className="blog-details wow fadeIn text-left">
-              <div className="container">
+              {/* <div className="container"> */}
                 <div
                   className="row"
                   style={{
@@ -350,7 +350,7 @@ const Advance_react = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>

@@ -63,29 +63,29 @@ const ReactRedux = () => {
 <ThemeProvider theme={theme}>  
   <Box sx={{bgcolor: 'background.default',color: 'text.primary' }}>
         <div className="blog-content">
-        <MyApp />
+        {/* <MyApp /> */}
           <div className="blog-grid">
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
-                <Box sx={{bgcolor: 'background.default',color: 'text.primary',border: "groove" }}>
+                <Box sx={{bgcolor: 'background.default',color: 'text.primary'}}>
                   <div
                     // class="main-title text-center wow fadeIn"
                     style={{ marginTop: "30px" }}
                   >
-                    <h3 style={{textAlignLast: 'center'}}>Blog Details</h3>
+                    <h3 style={{textAlignLast: 'center'}}>React Redux Toolkit</h3>
                     <div class="underline1"></div>
                     <div class="underline2"></div>
-                    <p style={{textAlignLast: 'center'}}>
+                    {/* <p style={{textAlignLast: 'center'}}>
                     Redux Toolkit
-                    </p>
+                    </p> */}
                   </div>
                   </Box>
                 </div>
               </div>
             </div>
-            <div className="blog-details wow fadeIn text-left">
-              <div className="container">
+            <div className="blog-details wow fadeIn text-left" style={{marginTop:"1px"}}>
+              {/* <div className="container"> */}
                 <div
                   className="row"
                   style={{
@@ -97,7 +97,7 @@ const ReactRedux = () => {
                   <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12">
                     <div className="blog-main">
                       <img
-                        src="assets/img/blog-details/1.png"
+                        src="assets/img/blog-details/s.png"
                         alt="React hooks were introduced in version 16.8"
                         class="blog-img"
                       />
@@ -329,7 +329,7 @@ const ReactRedux = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; 
-
+import Box from '@mui/material/Box';
 const Blog_home = () => {
     return ( 
 <React.StrictMode>
@@ -21,10 +21,11 @@ const Blog_home = () => {
                   </div>
                 </div>
                 </div>
-                <div className="container" style={{width: "1636px"}}>
-                <div className="row love-row wow fadeIn">
+                {/* <div className="container" style={{width: "1636px"}}> */}
+                <Box className="container1">
+                <div className="row">
                       <a href="/react-hooks" >
-                  <div className="col-md-3 col-sm-5" style={{width: "20%"}}>
+                  <div className="col-md-2 col-sm-5">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
@@ -50,7 +51,7 @@ const Blog_home = () => {
                   </div>
                   </a>
                 <a href="/Advance_react" >
-                  <div className="col-md-3 col-sm-5" style={{width: "20%"}}>
+                  <div className="col-md-2 col-sm-5" >
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
@@ -76,7 +77,7 @@ const Blog_home = () => {
                   </div>
                   </a>
                   <a href="/ReactRedux">
-                  <div className="col-md-3 col-sm-5" style={{width: "20%"}}>
+                  <div className="col-md-2 col-sm-5">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
@@ -102,7 +103,7 @@ const Blog_home = () => {
                   </div>
                   </a>
                   <a href="/ui-ux">
-                  <div className="col-md-3 col-sm-5" style={{width: "20%"}}>
+                  <div className="col-md-2 col-sm-5">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
@@ -127,7 +128,7 @@ const Blog_home = () => {
                   </div>
                   </a>
                   <a href="/Interview_questions">
-                  <div className="col-md-3 col-sm-5" style={{width: "20%"}}>
+                  <div className="col-md-2 col-sm-5">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
@@ -151,6 +152,32 @@ const Blog_home = () => {
                     </div>
                   </div>
                   </a>
+                  <a href="/Blog5">
+                  <div className="col-md-2 col-sm-5">
+                    <div className="service-details" data-wow-delay=".1s">
+                      <div className="service-head">
+                        <img
+                          src="assets/img/service/Blog5.gif"
+                          alt="mobile-friendly"
+                        />
+                      </div>
+                      <div className="service-bottom">
+                        <i
+                          className="fa fa-spinner exp-icon"
+                          aria-hidden="true"
+                        ></i>
+                        <h3>In Progress</h3>
+                        <div className="underline1"></div>
+                        <div className="underline2"></div>
+                        <p>
+                      Comming Soon...........
+                        </p>
+                        <p class="text-red blink-soft" style={{fontSize:"13px"}}>{"<<"} Click to read more {">>"}</p>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                  <hr />
                   {/* <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
@@ -197,7 +224,8 @@ const Blog_home = () => {
                     </div>
                   </div> */}
                 </div>
-              </div>
+                </Box>
+              {/* </div> */}
             </div>
           </div>
         </div>
