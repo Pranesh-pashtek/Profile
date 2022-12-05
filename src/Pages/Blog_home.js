@@ -23,7 +23,7 @@ const Blog_home = () => {
                 </div>
                 {/* <div className="container" style={{width: "1636px"}}> */}
                 <Box className="container1">
-                <div className="row">
+                <div className="row" style={{marginTop: "15px"}}>
                       <a href="/react-hooks" >
                   <div className="col-md-2 col-sm-5">
                     <div className="service-details" data-wow-delay=".1s">
