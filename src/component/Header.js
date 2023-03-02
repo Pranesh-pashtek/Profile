@@ -5,14 +5,29 @@ function Header() {
     <React.StrictMode>
       <div className="menubar">
         <div className="menubar-content">
-          <nav className="navbar navbar-default navbar-fixed-top">
+          <nav className="navbar navbar-default navbar-fixed-top">          
             <div className="container">
               <div className="row">
-                <div className="col-md-3 col-sm-3">
+                <div className="col-md-4 col-sm-4">
+                  {/* <div className="col-md-4 ">
+                    <div className="about-image" style={{ paddingTop: "12px" }}>
+                      <img
+                        src="assets/img/logo.png"
+                        alt="Pranesh"
+                        className="about-img wow fadeIn"
+                      />
+                    </div>
+                  </div> */}
                   <div className="site-title">
+                  {/* <a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;" />
+</a> */}
                     <a href="/#home" style={{ textDecoration: "none" }}>
-                      <h3>Pranesh R B</h3>
+                      <h3>Pranesh R B
+                      </h3>                      
                     </a>
+                    
+                    
                   </div>
                 </div>
                 <div className="navbar-header">
@@ -29,7 +44,7 @@ function Header() {
                     <span className="icon-bar"></span>
                   </button>
                 </div>
-                <div className="col-md-9 col-sm-9 navbar-style">
+                <div className="col-md-8 col-sm-8 navbar-style">
                   <div
                     className="collapse navbar-collapse"
                     id="bs-example-navbar-collapse-1"
@@ -57,6 +72,12 @@ function Header() {
                       </li>
                       <li>
                         <a href="/Blog_home">Blogs</a>
+                      </li>
+                      <li>
+                        <a href="/Myjournal">Journal</a>
+                      </li>
+                      <li>
+                        <a href="/My_works">My Works</a>
                       </li>
                       {/* <li>
                         <a href="/Myworks">My Works</a>

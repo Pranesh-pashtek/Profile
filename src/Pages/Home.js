@@ -308,7 +308,7 @@ const Home = () => {
             <div className="me-grid">
               <div className="container">
                 <div className="row">
-                  <div className="col-md-4 col-sm-6 col-xs-12 about-col">
+                  <div className="col-md-2 col-sm-6 col-xs-12 about-col">
                     <div className="about-image">
                       <img
                         src="assets/img/pranesh.jpeg"
@@ -317,7 +317,7 @@ const Home = () => {
                       />
                     </div>
                   </div>
-                  <div className="col-md-8 col-sm-6 col-xs-12 about-col">
+                  <div className="col-md-10 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
                         <h3>Hello! This is Pranesh</h3>

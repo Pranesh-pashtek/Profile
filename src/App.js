@@ -22,6 +22,7 @@ import Interview_questions from "./Pages/Interview_questions";
 import Myworks from "./Pages/Myworks";
 import Myjournal from "./Pages/Myjournal";
 import Blog5 from "./Pages/Blog5";
+import My_works from "./Pages/My_works";
 function App() {
   return (
     <React.StrictMode>
@@ -41,6 +42,7 @@ function App() {
             <Route exact path="/Myworks" component={Myworks} />            
             <Route exact path="/Myjournal" component={Myjournal} />            
             <Route exact path="/Blog5" component={Blog5} />
+            <Route exact path="/My_works" component={My_works} />
           </Switch>
         </ScrollToTop>
         <Footer />
