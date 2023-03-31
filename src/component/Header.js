@@ -79,6 +79,9 @@ function Header() {
                       <li>
                         <a href="/My_works">My Works</a>
                       </li>
+                      <li>
+                        <a href="/mail">Connect Me</a>
+                      </li>
                       {/* <li>
                         <a href="/Myworks">My Works</a>
                       </li> */}
