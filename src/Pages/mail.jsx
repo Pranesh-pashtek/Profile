@@ -7,8 +7,11 @@ import "./mail.css";
 import Container from '@mui/material/Container';
 // import Button from '@mui/material/Button';
 import CircularProgress from '@mui/material/CircularProgress';
+import Backdrop from '@mui/material/Backdrop';
 import Modal from 'react-bootstrap/Modal';
 import { Alert } from 'reactstrap';
+import { Audio } from 'react-loader-spinner'
+
 
 // var http = require('http');
 class mail extends Component {
@@ -30,6 +33,9 @@ class mail extends Component {
     //console.log(`${e.target.name}:${e.target.value}`);
   };
   async handleSubmit(e) {  
+    this.setState({
+      showComponent: true,
+    });
     e.preventDefault();
     const { name, email, subject } = this.state;
     // https://mail-pvc5.onrender.com
@@ -39,32 +45,9 @@ class mail extends Component {
       subject
     }).then((data) => {
       console.log(data.status);
-        
     if(!alert("Mail Sended")) document.location = '/mail';
-      if (data.status == 200) {
-        // window.location.href = "assets/img/gif1.gif";  
-      //  <div>
-      //   <Alert color="primary">
-      //   This is a primary alert — check it out!
-      // </Alert>
-      //  </div>
-        // window.location.href = "/mail";
-        // if(!alert("Mail Sended")) document.location = '/mail';
-        // if (window.confirm('Mail Sended'))
-        //  {
-        //   window.location.href = "/mail";
-        //   }
-        // else
-        //  {
-        //     // They clicked no
-        //  }
-        // if(confirm("my text here")) document.location = 'http://stackoverflow.com/';
-    }
     }).catch((err) => {
       alert(err);
-      // <form>
-      //     <input type="button" value="Click Me" onclick={window.location.href = "/"} />
-      // </form>
   });
   }
 
@@ -96,8 +79,7 @@ class mail extends Component {
         <FormGroup>
           <Label for="subject">Subject:</Label>
           <Input type="textarea" name="subject" onChange={this.handleChange} />
-        </FormGroup>        
-        {/* <Button>Submit</Button> */}
+        </FormGroup> 
         <br />
         <br />
         {/* <div className="Button_submit">
@@ -108,8 +90,16 @@ class mail extends Component {
         <div className="Button_submit">
          <Button className="Button_submit3" >Submit </Button>
         </div>
-      </Form>
-      </Box>
+        <div className="loaders">       
+      {this.state.showComponent ?
+       <Backdrop open>
+         <CircularProgress color="inherit" />
+         </Backdrop>
+           :null
+        }
+        </div> 
+      </Form>  
+      </Box>  
       </Container>
       </Box>
       </div>

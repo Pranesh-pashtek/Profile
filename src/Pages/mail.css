@@ -44,6 +44,8 @@ body {
   height: 120px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
+  text-align-last: center;
+  margin-top: 15px;
 }
 
 /* Safari */
@@ -90,6 +92,13 @@ textarea.form-control {
   100% { transform: rotate(360deg); }
 }
 
+.loaders {
+  text-align-last: center;
+  margin-top: 15px;
+}
+svg.MuiCircularProgress-svg.css-1idz92c-MuiCircularProgress-svg {
+  color: #0A2140;
+}
 /* html {
   margin-top: -400px;
 } */
