@@ -1413,7 +1413,7 @@ const Home = () => {
                         ></i>
                         <h3>Email</h3>
                         <a
-                          href="mailto:contact.sanajitjana@gmail.com"
+                          href="/mail"
                           style={{
                             color: "black",
                             textDecoration: "none",
