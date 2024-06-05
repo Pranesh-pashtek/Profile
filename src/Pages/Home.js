@@ -311,7 +311,7 @@ const Home = () => {
                   <div className="col-md-2 col-sm-6 col-xs-12 about-col">
                     <div className="about-image">
                       <img
-                        src="assets/img/img_pro.jpg"
+                        src="assets/img/DP.jpeg"
                         alt="Pranesh"
                         className="about-img wow fadeIn"
                       />
